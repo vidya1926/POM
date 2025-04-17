@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4073","Launch application through utility class","chromium","Sun Feb 09 11:12:53 IST 2025","failed","Sun Feb 09 11:12:57 IST 2025","","verifyLogin.spec.ts","",""

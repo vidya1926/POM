@@ -51,8 +51,6 @@ export class Login extends PlaywrightWrapper{
     return await this.page.title()
   }
 }
-
-
 // async function doLogin(){
 //     const browser =await chromium.launch({headless:false})
 //     const context=await browser.newContext()
