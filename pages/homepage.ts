@@ -10,7 +10,7 @@ export class HomePage extends Login{
    }
     
    async clickCRMSFA(){
-    await this.page.click("//a[contains(text(),'CR')]")   
+    await this.page.click("//a[contains(text(),'CRM')]")   
 }
 
 async clickLogout(){
