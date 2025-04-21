@@ -35,7 +35,9 @@ async function globalTeardown(config: FullConfig) {
       const newPath = path.join(reportDir, reportFile);
 
       fs.rename(oldPath, newPath, (err) => {
-        if (err) return reject(reportError);
+        if (err) {
+          return reject(new Error(`Failed to rename report file: ${err.message}`));
+        }
         console.log(`Allure report successfully generated at ${newPath}`);
         resolve();
       });
