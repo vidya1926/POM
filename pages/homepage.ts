@@ -10,9 +10,10 @@ export class HomePage extends Login{
    }
     
    async clickCRMSFA(){
-    
-    await this.page.click("//a[contains(text(),'CRM')]")  
+    //await this.page.click("//a[contains(text(),'CRM')]")  
     console.log("Verify homepage") 
+    await this.page.click("//a[contains(text(),'CRM/SFA')]")   
+
 }
 
 async clickLogout(){
