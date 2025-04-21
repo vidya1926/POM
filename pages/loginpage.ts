@@ -48,7 +48,9 @@ export class Login extends PlaywrightWrapper{
   }
 
   async verifyTitle(){
+    console.log("verify title")
     return await this.page.title()
+
   }
 }
 // async function doLogin(){
