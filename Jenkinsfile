@@ -7,7 +7,7 @@ pipeline {
         stage('Clone from GitHub') {
             steps {
                 // Clone your GitHub repository
-                git url: 'https://github.com/vidya1926/POM.git', branch: 'master'
+                git url: 'https://github.com/vidya1926/POM.git', branch: 'main'
             }
         }
         stage('Install Dependencies') {
